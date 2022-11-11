@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Ayoub El Younssi">
-        <meta name="description" content="Portofolio">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="images\favicon.ico"/>
-        <link rel="stylesheet" type="text/css" href="css\StyleSheet.css" />
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-        <title>Index</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ayoub El Younssi">
+    <meta name="description" content="Portofolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images\favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css\StyleSheet.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>Index</title>
+</head>
 
 <body>
     <nav class="nav">
@@ -26,6 +26,30 @@
             </ul>
         </div>
     </nav>
+
+    <div class="toast">
+        <form action="/action_page.php">
+            <h1 style="text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Contacteer mij !</h1>
+            <label for="fname">Voor naam</label>
+            <input type="text" id="fname" name="firstname" placeholder="Jouw naam..">
+
+            <label for="lname">Naam</label>
+            <input type="text" id="lname" name="lastname" placeholder="Familie naam..">
+
+            <label for="country">Land</label>
+            <select id="country" name="country">
+                <option value="België">België</option>
+                <option value="Nederland">Nederland</option>
+                <option value="Duitsland">Duitsland</option>
+                <option value="VK">Verenigd Koningrijk</option>
+            </select>
+
+            <label for="subject">Uw boodschap</label>
+            <textarea id="subject" name="subject" placeholder="Jouw boodschap.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
     <footer class="footer-distributed">
         <div class="footer-right">

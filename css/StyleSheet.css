@@ -4,6 +4,33 @@ body {
 p h2{
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	border-style: solid;
+	box-shadow: 5px 5px 5px #AA14F0;
+	background-color: #BC8CF2;
+	color: #000000;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #AA14F0;
+	border-style: solid;
+	border-color: #ffffff;
+  }
 
 .nav {
 	position: sticky;
@@ -90,6 +117,10 @@ p h2{
 	transition: all 0.3s ease-in-out;
 	box-shadow: 10px 5px 5px grey;
 	border-radius: 10px;
+}
+.toast label{
+	color: #AA14F0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .toast h1 {
