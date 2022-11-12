@@ -307,3 +307,180 @@ input[type=text], select, textarea {
 .footer-distributed p.footer-links a:hover {
 	text-decoration: underline;
 }
+/* ___________________________________ CV________________________________________*/
+.main-section{
+    margin: 2%;
+    background-color: black;
+    display: flex;
+	box-shadow: 10px 5px 5px grey;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #BC8CF2;
+}
+.main-section:hover{
+	box-shadow: 10px 5px 5px #BC8CF2;
+}
+.main-section .left-part{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    padding: 2.8rem;
+	
+}
+.left-part .photo-container{
+    margin-bottom: 2.2rem;
+}
+.left-part .left-skill{
+	color: #BC8CF2;
+}
+.left-part .photo-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1rem solid #BC8CF2;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.title{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #AA14F0;
+    color: #000000;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+.contact-container{
+    margin-bottom: 2.2rem;
+}
+.contact-container .contact-list{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #444440;
+    font-size: 1rem;
+}
+.education-container{
+    margin-bottom: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+.education-container .course{
+    margin-bottom: 1rem;
+    color: #BC8CF2;
+}
+ 
+.education-container .education-title{
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: .3rem;
+}
+.education-container .college-name{
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+    
+}
+.education-container .education-date{
+    font-size: 0.9rem;
+}
+.skills-container .skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+.skills-container .skill .right-skill .outer-layer{
+    background-color: #BC8CF2;
+    height:0.4rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+	border: 1,5px;
+	border-style: solid;
+	border-color: #fff;
+}
+.skills-container .skill .right-skill .inner-layer{
+    background-color: #AA14F0;
+    height: 100%;
+    border-radius: inherit;
+}
+.right-part{
+    padding: 2.8rem;
+}
+.right-part .banner{
+    font-family: 'Open Sans', sans-serif; 
+    color: #BC8CF2;
+    margin-bottom: 2.2rem;
+}
+.right-part .banner .firstname{
+    font-size: 4rem;
+}
+.right-part .banner .lastname{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    margin-top: -1rem;
+}
+.right-part .banner .position{
+    letter-spacing: 0.3rem;
+    margin-top: -0.5rem;
+    font-size: 1.1rem;
+}
+.work-container{
+    margin-top: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+.work-container .work:not(:last-child){
+    margin-bottom: 1.8rem;
+}
+.work-container .work .job-date{
+    display: flex;
+    justify-content: space-between;
+    color: #BC8CF2;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.work-container .work .company-name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #BC8CF2;
+}
+.work-container .work .work-text{
+    color: #BC8CF2;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.references-container .references{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #BC8CF2;
+}
+.references-container .references .name{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.references-container .references .company-name{
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+.references-container .references .phone{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: #BC8CF2;
+}
+.references-container .references .phone p{
+    margin: 0.4rem 0;
+}
+.references-container .references .phone .phone-text{
+    font-weight: 600;
+}
+.text-left{
+    text-align: left;
+}
