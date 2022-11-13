@@ -154,6 +154,7 @@ input[type=text], select, textarea {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 700;
 	box-shadow: 10px 5px 5px #AA14F0;
+	transition: all 0.3s ease-in-out;
 }
 
 .button a {
@@ -165,6 +166,8 @@ input[type=text], select, textarea {
 }
 
 .button:hover {
+	letter-spacing: 2px;
+
 	background-color: #AA14F0;
 }
 
