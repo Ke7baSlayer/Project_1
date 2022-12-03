@@ -41,6 +41,7 @@ input[type=text], select, textarea {
 	border-style: solid;
 	border-color: #ffffff;
   }
+
 .navbar-toggler{
 	padding: 0%;
 	height: 1.5em;
@@ -50,6 +51,7 @@ input[type=text], select, textarea {
 	height: 100%;
 	width: 100%;
 }
+
 .nav {
 	position: sticky;
 	background-color: #BC8CF2;
@@ -84,7 +86,8 @@ input[type=text], select, textarea {
 	justify-content: center;
 }
 .nav li {
-	margin-left: 2%;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .nav a {
@@ -103,22 +106,6 @@ input[type=text], select, textarea {
 	border-left: #000000;
 	border-right: #000000;
 }
-
-
-.nav.active {
-	background-color: #fff;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.nav.active a {
-	color: #000;
-}
-
-.nav.active .container {
-	padding: 10px 0;
-}
-
-.nav a.current,
 .nav:hover a {
 	color: #ffffff;
 }
