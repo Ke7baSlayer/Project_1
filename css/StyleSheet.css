@@ -109,7 +109,7 @@ p h2{
 }
 .ImgContainer {
 	padding: 0%;
-	object-fit: contain;
+	object-fit: cover;
 	aspect-ratio: 4/2;
 	border-style: solid;
 	border-color: #AA14F0;
@@ -155,32 +155,6 @@ p h2{
 .TextContainer p {
 	margin-bottom: 100px;
 }
-
-
-/* Meer over mij*/
-.meerovermij {
-	margin-top: 2%;
-	margin-left: 2%;
-	margin-right: 10%;
-	margin-bottom: 2%;
-	padding: 3%;
-	background-color: #000000;
-	border-style: solid;
-	border-color: #BC8CF2;
-	color: #000000;
-	transition: all 0.3s ease-in-out;
-	box-shadow: 10px 5px 5px grey;
-	border-radius: 10px;
-}
-
-.meerovermij h1 {
-	color: #AA14F0;
-}
-
-.meerovermij:hover {
-	box-shadow: 10px 5px 5px #BC8CF2;
-}
-
 .Titel {
 	text-align: center;
 	font-family: fantasy;
@@ -192,19 +166,6 @@ p h2{
 	width: 100%;
 	align-items: center;
 }
-.fotos div{
-	width: 100%;
-	height: 300px;
-	margin: 5%;
-	border-style: solid;
-	border-color: #AA14F0;
-	box-shadow: 10px 5px 5px #AA14F0;
-}
-.fotos img{
-	width: 100%;
-	height: 100%;
-}
-
 /* Footer */
 .footer-distributed {
 	background-color: #AA14F0;
