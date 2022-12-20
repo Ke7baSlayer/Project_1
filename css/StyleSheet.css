@@ -110,11 +110,14 @@ p h2{
 .ImgContainer {
 	padding: 0%;
 	object-fit: cover;
-	aspect-ratio: 4/2;
+	aspect-ratio: 3/2;
+	height: max-content;
+	display: flex;
+}
+.ImgContainer img{
 	border-style: solid;
 	border-color: #AA14F0;
 	box-shadow: 10px 5px 5px #AA14F0;
-	height: max-content;
 }
 
 .TextContainer h1 h2{
