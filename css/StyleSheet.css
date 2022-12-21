@@ -416,3 +416,13 @@ p h2{
 .carousel-caption{
 	display: flex;
 }
+.carousel{
+	text-align: -webkit-center;
+}
+
+.carousel p{
+	color: #ffffff;
+	border: #000000;
+	font-weight: 600;
+	text-shadow: #AA14F0;
+}
