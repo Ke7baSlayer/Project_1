@@ -55,10 +55,15 @@
                 <label class="form-label" for="lname">E-mail adres</label>
                 <input type="email" class="form-control" id="lname" name="lastname" placeholder="E-mail..">
             </div>
-            <div class="mb-3">
-                <label class="form-label" for="lname">Onderwerp</label>
-                <input type="text" class="form-control" id="lname" name="lastname" placeholder="Onderwerp..">
-            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Interesse</label>
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Kies...</option>
+                  <option value="1">C#</option>
+                  <option value="2">HTML / CSS</option>
+                  <option value="3">Python</option>
+                </select>
+              </div>
             <div class="mb-3">
                 <label for="subject">Uw boodschap</label>
                 <textarea id="subject" class="form-control" name="subject" placeholder="Jouw boodschap.."

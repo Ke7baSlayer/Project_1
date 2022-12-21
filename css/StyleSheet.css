@@ -249,6 +249,7 @@ p h2{
     margin-bottom: 2.2rem;
 }
  .left-skill{
+	text-align: -webkit-center;
 	color: #BC8CF2;
 }
  .photo-container img{
@@ -313,14 +314,21 @@ p h2{
     height:0.4rem;
     width: 5rem;
     border-radius: 0.4rem;
-	border: 1,5px;
+	border: 1.5px;
 	border-style: solid;
 	border-color: #fff;
+}
+.right-skill{
+	text-align: -webkit-center;
+
 }
 .skills-container .skill .right-skill .inner-layer{
     background-color: #AA14F0;
     height: 100%;
     border-radius: inherit;
+}
+.outer-layer{
+	text-align: -webkit-left;
 }
 
  .banner{
@@ -404,4 +412,7 @@ p h2{
 }
 .text-left{
     text-align: left;
+}
+.carousel-caption{
+	display: flex;
 }
